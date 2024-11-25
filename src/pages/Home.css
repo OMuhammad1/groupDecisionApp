@@ -1,0 +1,57 @@
+/* Home.css */
+
+.home-page {
+    padding: 1rem;
+    max-width: 375px;
+    margin: 0 auto;
+  }
+  
+  .decision-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .decision-list li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .new-decision-button {
+    display: block;
+    margin-top: 1rem;
+    padding: 0.6rem;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .new-decision-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Navigation Bar */
+  .App-nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 375px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #ddd;
+    padding: 0.5rem 0;
+  }
+  
+  .App-nav a {
+    color: #007bff;
+    font-size: 1rem;
+    text-decoration: none;
+  }
+  
+  .App-nav a:hover {
+    text-decoration: underline;
+  }
+  

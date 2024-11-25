@@ -1,0 +1,40 @@
+/* CreateDecision.css */
+
+.create-decision {
+    padding: 1rem;
+    max-width: 375px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .add-option-button,
+  .submit-button {
+    width: 100%;
+    padding: 0.6rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .add-option-button:hover,
+  .submit-button:hover {
+    background-color: #218838;
+  }
+  
+  input[type='text'] {
+    width: 100%;
+    padding: 0.6rem;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  

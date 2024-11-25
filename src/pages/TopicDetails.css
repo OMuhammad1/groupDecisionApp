@@ -105,3 +105,9 @@
   .back-button:hover {
     background-color: #5a6268; /* Darker gray on hover */
   }
+
+  .deadline {
+    font-weight: bold;
+    color: #ff0000; /* Highlight deadline in red */
+    margin-bottom: 1rem;
+  }

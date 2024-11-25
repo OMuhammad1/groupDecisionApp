@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import { useParams, useNavigate } from 'react-router-dom'; // Import useNavigate
+import { useParams, useNavigate } from 'react-router-dom';
 import { useDecisions } from '../DecisionsContext';
 import './TopicDetails.css';
 
 function TopicDetails() {
   const { id } = useParams();
-  const navigate = useNavigate(); // Initialize navigate
+  const navigate = useNavigate();
   const { decisions, updateDecision, userInfo } = useDecisions();
   const decision = decisions.find((d) => d.id === parseInt(id, 10));
 
@@ -56,6 +56,13 @@ function TopicDetails() {
   return (
     <div className="topic-details">
       <h2>{decision.title}</h2>
+
+      {/* Display the deadline */}
+      {decision.deadline && (
+        <p className="deadline">
+          Deadline: {new Date(decision.deadline).toLocaleString()}
+        </p>
+      )}
 
       <h3>Options and Vote Tallies:</h3>
       <ul className="options-list">
@@ -112,7 +119,6 @@ function TopicDetails() {
         </div>
       </div>
 
-      {/* Add the Back to Home button */}
       <button onClick={() => navigate('/home')} className="back-button">
         Back to Home
       </button>

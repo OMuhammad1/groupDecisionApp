@@ -94,7 +94,7 @@
     width: 100%;
     padding: 0.8rem;
     margin-top: 1rem;
-    background-color: #6c757d; /* Gray color for the back button */
+    background-color: #6c757d; 
     color: white;
     border: none;
     border-radius: 5px;
@@ -103,11 +103,11 @@
   }
   
   .back-button:hover {
-    background-color: #5a6268; /* Darker gray on hover */
+    background-color: #5a6268; 
   }
 
   .deadline {
     font-weight: bold;
-    color: #ff0000; /* Highlight deadline in red */
+    color: #ff0000; 
     margin-bottom: 1rem;
   }

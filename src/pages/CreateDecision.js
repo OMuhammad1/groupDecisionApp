@@ -6,7 +6,7 @@ import './CreateDecision.css';
 function CreateDecision() {
     const [title, setTitle] = useState('');
     const [options, setOptions] = useState(['']);
-    const [deadline, setDeadline] = useState(''); // New state for deadline
+    const [deadline, setDeadline] = useState(''); 
     const { addDecision, decisions, userInfo } = useDecisions();
     const navigate = useNavigate();
 
@@ -23,7 +23,7 @@ function CreateDecision() {
             discussions: [],
             group: userInfo.groupName,
             votes: options.reduce((acc, option) => ({ ...acc, [option]: 0 }), {}),
-            deadline: deadline || null, // Save deadline if provided, otherwise null
+            deadline: deadline || null, 
         });
 
         navigate('/home');

@@ -6,7 +6,6 @@ import './Home.css';
 function Home() {
   const { decisions, userInfo } = useDecisions();
 
-  // Filter decisions for the user's group
   const groupDecisions = decisions.filter(
     (decision) => decision.group === userInfo.groupName
   );

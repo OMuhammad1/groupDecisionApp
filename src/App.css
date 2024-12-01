@@ -1,27 +1,26 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #e0e0e0; /* Light gray background */
+  background-color: #e0e0e0; 
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Full viewport height */
+  height: 100vh; 
 }
 
 .App {
-  width: 375px; /* Fixed width to simulate a phone screen */
-  height: 667px; /* Fixed height to simulate a phone screen */
-  background-color: #ffffff; /* White background for app container */
+  width: 375px; 
+  height: 667px; 
+  background-color: #ffffff; 
   display: flex;
   flex-direction: column;
-  border: 20px solid #000; /* Black border to resemble phone frame */
-  border-radius: 40px; /* Rounded corners */
-  box-shadow: inset 0 0 0 2px #555; /* Inner shadow for depth */
+  border: 20px solid #000; 
+  border-radius: 40px; 
+  box-shadow: inset 0 0 0 2px #555; 
   position: relative;
-  overflow: hidden; /* Hide overflow to maintain rounded corners */
+  overflow: hidden; 
 }
 
-/* Optional: Add decorative elements */
 .App::before {
   content: '';
   position: absolute;
@@ -46,7 +45,6 @@ body {
   border-radius: 20px 20px 0 0;
 }
 
-/* Adjust the navigation bar to stay within the App container */
 .App-nav {
   position: absolute;
   bottom: 0;
@@ -68,7 +66,6 @@ body {
   text-decoration: underline;
 }
 
-/* General button styling */
 button {
   width: 100%;
   padding: 0.8rem;
@@ -85,7 +82,6 @@ button:hover {
   background: #0056b3;
 }
 
-/* General input styling */
 input {
   width: 100%;
   padding: 0.8rem;

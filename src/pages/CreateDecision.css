@@ -1,5 +1,3 @@
-/* CreateDecision.css */
-
 .create-decision {
     padding: 1rem;
     max-width: 375px;
@@ -48,6 +46,6 @@
   }
 
   .deadline-container {
-    margin-top: 1.5rem; /* Adds padding above the deadline input */
+    margin-top: 1.5rem; 
   }
   
